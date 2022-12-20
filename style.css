@@ -1,0 +1,110 @@
+.titleSection {
+  background-color: #f8f9dc;
+}
+
+.header {
+  padding-top: 3em;
+  padding-left: 7em;
+}
+
+.heroImg {
+  width: 30em;
+  margin-bottom: -3em;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main__left {
+  margin-top: 1.5em;
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 2.2em;
+}
+
+.main__aside {
+  font-size: 28px;
+  margin-top: 0.5em;
+}
+
+.formSection {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+.inputDiv {
+  width: 120%;
+  gap: 3em;
+}
+
+.input {
+  padding: 10px 10px;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+.loginBtn {
+  padding: 10px 75px;
+  margin-top: 1em;
+  background-color: #5900bd;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.forgot {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.backBtn {
+  background: transparent;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+}
+
+.main__right1 {
+  display: none;
+}
+.main__left1 {
+  display: none;
+}
+
+/* -------------------------------- */
+
+@media screen and (max-width: 560px) {
+  td {
+    display: block;
+    margin-top: 0.5em;
+  }
+  .header {
+    display: none;
+  }
+  .main {
+    display: none;
+  }
+  .main__right1 {
+    display: block;
+    padding-top: 1em;
+  }
+  .main__left1 {
+    display: block;
+    margin-top: 0;
+    padding-bottom: 1em;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .logoImg {
+    width: 5em;
+  }
+}
